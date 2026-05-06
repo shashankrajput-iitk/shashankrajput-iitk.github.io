@@ -23,28 +23,30 @@ repository               : "shashankrajput-iitk"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio-photo-2.jpg"
-  name             : "Your Sidebar Name"
+  avatar           : "1777819717257.jpg"
+  name             : "Shashank Rajput"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "FARE Fellow & Postdoctoral Researcher at IIT Kanpur specializing in 
+  traffic flow theory, physics-informed deep learning, and disordered 
+  traffic systems."
+  location         : "Kanpur, India"
+  employer         : "Indian Insitute of Technology Kanpur"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "shashank20@iitk.ac.in" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=95_pJOYAAAAJ&hl=en&oi=ao"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-6603-5279"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
-  zotero           : # URL
+  linkedin           : # URL
 
 
   # Repositories and software development
