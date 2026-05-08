@@ -1,10 +1,8 @@
 ---
 permalink: /
-title: "Shashank Rajput
-  - /about/
-  - /about.html
+title: "Shashank Rajput"
+author_profile: true
 ---
-
 I am a FARE Fellow (Postdoctoral Researcher) at the Indian Institute of Technology Kanpur working in the area of traffic flow theory, disordered traffic systems, and physics-informed deep learning.
 
 My research focuses on:
