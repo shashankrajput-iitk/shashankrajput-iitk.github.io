@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Understanding Influence of Lateral Movements on Surrounding Vehicles in Disordered Traffic Conditions."
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
+#excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
 date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
+venue: 'Lund University, Sweden'
+paperurl: 'https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=3&hl=en&user=95_pJOYAAAAJ&authuser=3'
 citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
