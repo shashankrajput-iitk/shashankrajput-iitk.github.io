@@ -7,5 +7,5 @@ category: conferences
 date: 2024-02-17
 venue: 'Lund University, Sweden'
 paperurl: ''
-citation: 'citation: 'Venkateshappa, S., Rajput, S., Asaithambi, G., Kanagaraj, V. (2024). "Understanding Influence of Lateral Movements on Surrounding Vehicles in Disordered Traffic Conditions".26th Euro Working Group Transportation (EWGT), Lund University– Sweden, 2024.'
+citation: 'Venkateshappa, S., Rajput, S., Asaithambi, G., Kanagaraj, V. (2024). "Understanding Influence of Lateral Movements on Surrounding Vehicles in Disordered Traffic Conditions".26th Euro Working Group Transportation (EWGT), Lund University– Sweden, 2024.'
 ---
