@@ -1,6 +1,6 @@
 ---
 title: "Understanding Influence of Lateral Movements on Surrounding Vehicles in Disordered Traffic Conditions."
-collection: publications
+#collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
 #excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
