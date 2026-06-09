@@ -6,6 +6,6 @@ category: conferences
 #excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
 date: 2024-02-17
 venue: 'Lund University, Sweden'
-paperurl: 'https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=3&hl=en&user=95_pJOYAAAAJ&authuser=3'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+paperurl: ''
+citation: 'citation: 'Venkateshappa, S., Rajput, S., Asaithambi, G., Kanagaraj, V. (2024). "Understanding Influence of Lateral Movements on Surrounding Vehicles in Disordered Traffic Conditions".26th Euro Working Group Transportation (EWGT), Lund University– Sweden, 2024.'
 ---
