@@ -66,15 +66,63 @@ Dataset Download
 
 <h2>Vehicle-Specific Dataset</h2>
 
-<img src="/images/chennai_dataset.png"
-     alt="Vehicle Specific Dataset"
-     style="width:100%; max-width:800px; border-radius:8px;">
+<p>
+The Vehicle-Specific Dataset contains trajectory data for different vehicle
+classes operating under heterogeneous traffic conditions. The dataset enables
+the analysis of vehicle movement characteristics, lane usage, lateral position
+preferences, overtaking behavior, and traffic interactions in lane-free traffic
+streams.
+</p>
 
 <p>
-A categorized dataset containing trajectories of different vehicle classes
-such as two-wheelers, cars, auto-rickshaws, buses, and trucks collected
-under real-world heterogeneous traffic conditions.
+The figures below illustrate the lateral position preference distributions for
+different vehicle categories. Darker regions indicate a higher probability of
+vehicle presence at a given lateral position across the roadway width.
 </p>
+
+<div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
+
+  <div style="flex:1 1 450px; text-align:center;">
+    <img src="/images/Heatmap for MTW_July 03 (1).png"
+         alt="Motorized Two-Wheeler Lateral Position Preference"
+         style="width:100%; border-radius:8px;">
+    <p><strong>Motorized Two-Wheelers (MTW)</strong></p>
+  </div>
+
+  <div style="flex:1 1 450px; text-align:center;">
+    <img src="/images/Heatmap for AUTO_July 03 (1).png"
+         alt="Auto-Rickshaw Lateral Position Preference"
+         style="width:100%; border-radius:8px;">
+    <p><strong>Auto-Rickshaws</strong></p>
+  </div>
+
+  <div style="flex:1 1 450px; text-align:center;">
+    <img src="/images/Heatmap for CAR_July 03 (1).png"
+         alt="Car Lateral Position Preference"
+         style="width:100%; border-radius:8px;">
+    <p><strong>Cars</strong></p>
+  </div>
+
+  <div style="flex:1 1 450px; text-align:center;">
+    <img src="/images/Heatmap for CV_July 03 (1).png"
+         alt="Commercial Vehicle Lateral Position Preference"
+         style="width:100%; border-radius:8px;">
+    <p><strong>Commercial Vehicles</strong></p>
+  </div>
+
+</div>
+
+<h3>Key Observations</h3>
+
+<ul>
+    <li>Motorized two-wheelers predominantly utilize the left-most portion of the carriageway and exhibit high lateral flexibility.</li>
+
+    <li>Auto-rickshaws show a moderate concentration near the left side while occupying a wider lateral range than commercial vehicles.</li>
+
+    <li>Cars primarily operate within the central region of the roadway and display greater lateral dispersion under heterogeneous traffic conditions.</li>
+
+    <li>Commercial vehicles exhibit strong lane-like behavior with concentrated lateral occupancy due to their larger dimensions and limited maneuverability.</li>
+</ul>
 
 <h3>Vehicle Categories</h3>
 
