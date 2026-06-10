@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Shashank Rajput"
 title_separator          : "-"
-name                     : &name "Shashank Rajput"
+name                     : &name "Shashank Rajput - IIT Kanpur"
 description              : &description "Shashank Rajput is a FARE Fellow and Postdoctoral Researcher at IIT Kanpur. Research interests include traffic flow theory, disordered traffic systems, physics-informed neural networks, machine learning, and transportation engineering."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://shashankrajput-iitk.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
