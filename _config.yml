@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Shashank Rajput | IIT Kanpur"
+title                    : "Shashank Rajput"
 title_separator          : "-"
 name                     : &name "Shashank Rajput"
 description              : &description "Shashank Rajput is a FARE Fellow and Postdoctoral Researcher at IIT Kanpur. Research interests include traffic flow theory, disordered traffic systems, physics-informed neural networks, machine learning, and transportation engineering."   # Update this with a general description of your site, this is the default if not overridden by a page
