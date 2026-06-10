@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Shashank Rajput | IIT Kanpur"
 title_separator          : "-"
 name                     : &name "Shashank Rajput"
-description              : &description "Academic website of Shashank Rajput"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Shashank Rajput is a FARE Fellow and Postdoctoral Researcher at IIT Kanpur. Research interests include traffic flow theory, disordered traffic systems, physics-informed neural networks, machine learning, and transportation engineering."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://shashankrajput-iitk.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,7 @@ author:
   avatar           : "1777819717257.jpg"
   name             : "Shashank Rajput"
   pronouns         : # example: "she/her"  
-  bio              : "FARE Fellow & Postdoctoral Researcher at IIT Kanpur specializing in 
-  traffic flow theory, physics-informed deep learning, and disordered 
-  traffic systems."
+  bio              : "FARE Fellow & Postdoctoral Researcher at IIT Kanpur specializing in traffic flow theory, physics-informed deep learning, and disordered traffic systems."
   location         : "Kanpur, India"
   employer         : "IIT Kanpur"
   uri              : # URL
@@ -132,7 +130,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : 9lzlRUIZJbM8khtQQklwu4GRb3bcynD6X9gnTMNaCX0
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -221,35 +219,8 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used by the template
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
@@ -257,41 +228,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS
