@@ -5,32 +5,139 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h1>Publications</h1>
 
-{% include base_path %}
+<p>
+My research focuses on traffic flow theory, heterogeneous traffic modeling,
+lane-free traffic dynamics, traffic data analytics, and physics-informed
+machine learning. A complete list of publications is provided below.
+</p>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<hr>
 
+<h2>Journal Articles</h2>
 
+<div style="margin-bottom:25px;">
 
+<p>
+<strong>Rajput, S.</strong>, Asaithambi, G., Kanagaraj, V.
+<br>
+Title of Journal Paper 1.
+<br>
+<i>Transportation Research Part C</i>, 2025.
+<br>
+<a href="#">PDF</a> |
+<a href="#">DOI</a> |
+<a href="#">BibTeX</a>
+</p>
+
+</div>
+
+<div style="margin-bottom:25px;">
+
+<p>
+<strong>Rajput, S.</strong>, Treiber, M., Okhrin, O., Kanagaraj, V.
+<br>
+Title of Journal Paper 2.
+<br>
+<i>Journal Name</i>, 2025.
+<br>
+<a href="#">PDF</a> |
+<a href="#">DOI</a> |
+<a href="#">BibTeX</a>
+</p>
+
+</div>
+
+<hr>
+
+<h2>Conference Proceedings</h2>
+
+<div style="margin-bottom:25px;">
+
+<p>
+Venkateshappa, S., <strong>Rajput, S.</strong>, Asaithambi, G.,
+Kanagaraj, V.
+<br>
+Understanding Influence of Lateral Movements on Surrounding Vehicles in
+Disordered Traffic Conditions.
+<br>
+<i>26th Euro Working Group on Transportation (EWGT)</i>,
+Lund University, Sweden, 2024.
+<br>
+<a href="#">Paper</a>
+</p>
+
+</div>
+
+<div style="margin-bottom:25px;">
+
+<p>
+<strong>Rajput, S.</strong>, Asaithambi, G., Kanagaraj, V.
+<br>
+Conference Paper Title.
+<br>
+<i>Conference Name</i>, Year.
+<br>
+<a href="#">Paper</a>
+</p>
+
+</div>
+
+<hr>
+
+<h2>Working Papers</h2>
+
+<div style="margin-bottom:25px;">
+
+<p>
+<strong>Rajput, S.</strong>, Asaithambi, G., Kanagaraj, V.
+<br>
+Higher-Order Two-Dimensional Modeling of Lane-Free Traffic Flow.
+<br>
+<i>Under Review</i>
+</p>
+
+</div>
+
+<div style="margin-bottom:25px;">
+
+<p>
+<strong>Rajput, S.</strong>, Kanagaraj, V.
+<br>
+Physics-Informed Neural Networks for Traffic State Reconstruction.
+<br>
+<i>Manuscript in Preparation</i>
+</p>
+
+</div>
+
+<hr>
+
+<h2>Datasets and Research Resources</h2>
+
+<div style="margin-bottom:25px;">
+
+<p>
+<strong>Chennai Traffic Dataset</strong>
+<br>
+Drone-based trajectory dataset comprising approximately 59 hours of
+heterogeneous traffic recordings collected across urban locations in India.
+<br>
+<a href="https://www.chennaitrafficdata.com">
+Project Website
+</a>
+</p>
+
+</div>
+
+<hr>
+
+<h2>Academic Profiles</h2>
+
+<ul>
+    <li><a href="#">Google Scholar</a></li>
+    <li><a href="#">ORCID</a></li>
+    <li><a href="#">ResearchGate</a></li>
+    <li><a href="#">Scopus Author Profile</a></li>
+</ul>
